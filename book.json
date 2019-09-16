@@ -1,0 +1,15 @@
+{
+    "title": "LeetCode算法实现",
+    "author": "shiqi.chang",
+    "language": "zh-hans",
+    "root": ".",
+    "gitbook": "3.2.3",
+    "theme-default": {
+        "showLevel": true
+    },
+    "link": {
+        "sidebar": {
+            "Home": "https://s7.zzs7.top"
+        }
+    }
+}
