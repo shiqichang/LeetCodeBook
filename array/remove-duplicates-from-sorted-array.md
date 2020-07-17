@@ -1,6 +1,6 @@
 # 删除排序数组中的重复项
 
-### [题干](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+## [题干](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 
 给定一个排序数组，你需要在[原地](https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95)删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
 
@@ -10,11 +10,13 @@
 
 原来我忽略了要在原数组上做修改，使用 `O(1)` 额外空间完成😅，下面进入正题吧。
 
-### 我的解法：哈希表
+## 我的解法：哈希表
 
 受到 [两数之和](https://leetcode-cn.com/problems/two-sum/) 的影响，我用字典的方式解了该题😓，顺便还用到了 `Python` 的深拷贝。执行时间 804ms......
 
 时间复杂度和空间复杂度均为 `O(n)`, 代码实现如下：
+
+python
 
 ```python
 class Solution:
@@ -31,7 +33,7 @@ class Solution:
 
 注意⚠️：虽然这种解法通过了，但是它同样忽略了题干 - 空间复杂度要求为 `O(1)` (在审题方面，我装瞎能力很强呢 ◔ ‸◔？)
 
-### 官方解法：双指针法
+## 官方解法：双指针法
 
 我的解法中忽略了一个很重要的信息：数组是有序的！
 
@@ -40,6 +42,8 @@ class Solution:
 只要 `nums[i] == nums[j]`, j 加1，跳过重复项；当遇到 `nums[i] != nums[j]`, i 递增，然后把 nums[j] 值复制给 nums[i].
 
 Show me codeヽ(✿ﾟ▽ﾟ)ノ
+
+python
 
 ```python
 class Solution:

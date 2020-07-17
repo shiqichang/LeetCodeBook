@@ -1,10 +1,10 @@
 # Summary
 
-### 前言
+## 前言
 
 * [LeetCode算法](README.md)
 
-### 数组(Array)
+## 数组(Array)
 
 * [两数之和](array/two-sum.md)
 * [删除排序数组中的重复项](array/remove-duplicates-from-sorted-array.md)
@@ -18,7 +18,7 @@
 * [买卖股票的最佳时机](array/best-time-to-buy-and-sell-stock.md)
 * [买卖股票的最佳时机 II](array/best-time-to-buy-and-sell-stock-ii.md)
 * [两数之和 II - 输入有序数组](array/two-sum-ii-input-array-is-sorted.md)
-* [求众数](array/majority-element.md)
+* [多数元素](array/majority-element.md)
 * [旋转数组](array/rotate-array.md)
 * [存在重复元素](array/contains-duplicate.md)
 * [存在重复元素 II](array/contains-duplicate-ii.md)
